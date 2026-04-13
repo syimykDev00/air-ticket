@@ -20,22 +20,18 @@ const Contact = () => {
                                     <FaPhoneAlt className='contact-icon-one'/>
                                     <a href="tel: +996 (000) 00 00 00" className='contact-block-link'>+996 (000) 00 00 00</a>
                                 </div>
-                                <Link className='contact-block-icon'>
-                                <div>
+                                <div className='contact-block-icon'>
                                     <img src={contactIconOne} alt="contactIcon"/>
-                                    <a className='contact-block-link'>+996 (000) 00 00 00</a>
+                                    <a href='tel: +996 (000) 00 00 00' className='contact-block-link'>+996 (000) 00 00 00</a>
                                 </div>
-                                </Link>
-                                <Link className='contact-block-icon'>
-                                 <div>
+                                <div className='contact-block-icon'>
                                     <img src={contactIconTwo} alt="contactIcon"/>
-                                    <a className='contact-block-link'>+996 (000) 00 00 00</a>
-                                 </div>
-                                </Link>
+                                    <a href='tel: +996 (000) 00 00 00' className='contact-block-link'>+996 (000) 00 00 00</a>
+                                </div>
                                 <h2> <span>@</span> neolabs@neo.pw </h2>
                             </div>
                             <div className='contact-block-two'>
-                                <Link>
+                                <Link to={''}>
                                  <SlLocationPin className='contact-block-two-icon'/>
                                 </Link>
                                 <div className='contact-block-two-text'>
@@ -45,9 +41,17 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className='contact-maps'>
-                            <iframe className='contact-google-maps'
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.0697322687693!2d74.61946247561393!3d42.87137230264602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7b0f3a92e6f%3A0x6586b66f3887e691!2z0YPQuy4g0KLQvtC60YLQvtCz0YPQu9CwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1770732283159!5m2!1sru!2skg" width="488" height="310" style={{border: '0', borderRadius: '24px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
+                            <iframe
+                              className='contact-google-maps'
+                              title='map'
+                              src="..."
+                              width="488"
+                              height="310"
+                              style={{ border: '0', borderRadius: '24px' }}
+                              allowFullScreen
+                              loading="lazy"
+                              referrerPolicy="no-referrer-when-downgrade"
+                            />
                         </div>
                         <aside className='info-sidebar-contact'>
                          <InfoSidebar />

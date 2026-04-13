@@ -15,18 +15,18 @@ const Footer = () => {
                     <div className='footer-logo-group'>
                         <img src={footerLogo} alt="footerLogo"/>
                         <div className='footer-icon-group'>
-                            <Link to={''} className='footer-icon'>
+                            <a href="https://facebook.com" className='footer-icon' target="_blank" rel="noreferrer">
                               <FaFacebookSquare />
-                            </Link>
-                            <Link to={''} className='footer-icon'>
+                            </a>
+                            <a href="https://instagram.com" className='footer-icon' target="_blank" rel="noreferrer">
                               <FaInstagram />
-                            </Link>
-                            <Link to={''} className='footer-icon'>
+                            </a>
+                            <a href="https://instagram.com" className='footer-icon' target="_blank" rel="noreferrer">
                               <FaWhatsapp />
-                            </Link>
-                            <Link to={''} className='footer-icon'>
+                            </a>
+                            <a href="https://instagram.com" className='footer-icon' target="_blank" rel="noreferrer">
                               <RiTelegram2Fill />
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className='footer-navbar-group'>
@@ -47,7 +47,7 @@ const Footer = () => {
                         <h2>Контакты</h2>
                         <nav className='footer-navbar'>
                             <a href="tel: +996 (000) 00 00 00">+996 (000) 00 00 00</a>
-                            <a href="#">neolabs@neo.pw</a>
+                            <a href="mailto:neolabs@neo.pw">neolabs@neo.pw</a>
                         </nav>
                         <p>Бишкек, ул. Токтогул</p>
                         <p>График работы с 9:00 до 18:00</p>
