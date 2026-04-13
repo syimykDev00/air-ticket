@@ -1,0 +1,369 @@
+#contact {
+    padding: 50px 0 80px 0;
+}
+
+.contactBG {
+    background: url('../../assets/img/voluntaryReportImageBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+}
+
+.contact h1 {
+    padding: 94px 0 26px 0;
+    font-weight: 600;
+    font-size: 28px;
+    color: #202020;
+}
+
+.contact-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.contact-block-one {
+    width: 341px;
+    height: 188px;
+    border-radius: 12px;
+    padding: 20px 26px;
+    background: var(--Tretiary, #F7F8FB);
+    margin: 0 0 16px 0;
+}
+
+.contact-block-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 16px 0;
+}
+
+.contact-icon-one {
+    color: #000000;
+    font-size: 19px;
+    padding: 0 0 4px 0 0;
+}
+
+.contact-block-icon div img {
+    padding: 0 4px 0 0;
+}
+
+.contact-block-link {
+    color: #202020;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact-block-one h2 {
+font-weight: 600;
+font-size: 18px;
+color: #202020;
+}
+
+.contact-block-one h2 span {
+    font-weight: 600;
+    font-size: 24px;
+    color: #DE1A1B;
+}
+
+.contact-block-two {
+     width: 341px;
+    height: 101px;
+    border-radius: 12px;
+    padding: 20px 26px;
+    background: var(--Tretiary, #F7F8FB);
+    display: flex;
+    align-items: start;
+}
+
+.contact-block-two-icon {
+    color: #DE1A1B;
+    font-size: 25px;
+    padding: 0 4px 0 0;
+}
+
+.contact-block-two-text h3 {
+font-weight: 600;
+font-size: 18px;
+color: #202020;
+padding: 0 0 16px 0;
+}
+
+.contact-block-two-text h4 {
+font-weight: 600;
+font-size: 17px;
+color: #202020;
+}
+
+.info-sidebar-contact {
+  width: 320px;
+  position: sticky;
+  top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-block-one {
+     width: 311px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 311px;
+     height: 100%;
+ }
+ .contact-google-maps {
+    width: 368px;
+  }
+}
+
+@media (max-width: 1024px) {
+    .contact-block-one {
+     width: 341px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 341px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 488px;
+    height: 310px;
+    margin: 0 0 30px 0;
+  }
+  .contact-general {
+    flex-wrap: wrap;
+  }
+  .info-sidebar-contact {
+    width: 80%;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+}
+
+@media (max-width: 992px) {
+    .contact-block-one {
+     width: 331px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 331px;
+     height: 100%;
+ }
+ .contact-google-maps {
+    width: 478px;
+    height: 310px;
+  }
+  .contact-general {
+    flex-wrap: wrap;
+  }
+  .info-sidebar-contact {
+    width: 80%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+    .contact-block-one {
+     width: 351px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 351px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 518px;
+    height: 310px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 90%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 380px;
+ }
+ .contact h1 {
+    font-size: 27px;
+ }
+}
+
+@media (max-width: 576px) {
+    .contact-block-one {
+     width: 351px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 351px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 518px;
+    height: 310px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 340px;
+ }
+ .contact h1 {
+    font-size: 27px;
+ }
+}
+
+@media (max-width: 450px) {
+    .contact-block-one {
+     width: 351px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 351px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 404px;
+    height: 290px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 290px;
+ }
+ .contact h1 {
+    font-size: 26px;
+ }
+}
+
+@media (max-width: 400px) {
+    .contact-block-one {
+     width: 331px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 331px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 330px;
+    height: 280px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 240px;
+ }
+ .contact h1 {
+    font-size: 25px;
+ }
+}
+
+@media (max-width: 375px) {
+    .contact-block-one {
+     width: 337px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 337px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 337px;
+    height: 280px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 230px;
+ }
+ .contact h1 {
+    font-size: 25px;
+ }
+}
+
+@media (max-width: 320px) {
+    .contact-block-one {
+     width: 288px;
+     height: 188px;
+  }
+  .contact-block-two {
+     width: 288px;
+     height: 100%;
+     margin: 0 0 30px 0;
+ }
+ .contact-google-maps {
+    width: 288px;
+    height: 240px;
+  }
+  .contact-general {
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-sidebar-contact {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .sidebarCardIcon {
+    font-size: 18px;
+ }
+ .contactBG {
+    height: 200px;
+ }
+ .contact h1 {
+    font-size: 24px;
+ }
+}

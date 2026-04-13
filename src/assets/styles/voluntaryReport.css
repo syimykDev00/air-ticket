@@ -1,0 +1,435 @@
+#voluntaryReport {
+    padding: 50px 0 80px 0;
+}
+
+.voluntaryReportBg {
+    background: url('../../assets/img/voluntaryReportImageBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+}
+
+.voluntaryReport h1 {
+font-weight: 600;
+font-size: 28px;
+color: #202020;
+padding: 76px 0 26px 0;
+}
+
+.voluntaryReport-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.voluntaryReport-block-general {
+    display: flex;
+    align-items: start;
+}
+
+.voluntaryReport-block {
+    width: 420px;
+    height: 100%;
+    border-radius: 12px;
+    padding: 18px 12px;
+    background: var(--Tretiary, #F7F8FB);
+    margin: 0 24px 0 0;
+}
+
+.voluntaryReport-block h3 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 0 0 10px 0;
+width: 100%;
+}
+
+.voluntaryReport-block p {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+width: 100%; 
+}
+
+.voluntaryReport-group-one h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 40px 0 26px 0;
+}
+
+.voluntaryReport-inputs input {
+font-weight: 500;
+font-size: 16px;
+color: #6B6B6B;
+padding: 0 0 0 12px;
+width: 865px;
+height: 74px;
+background: var(--Tretiary, #F7F8FB);
+border-radius: 12px;
+border: none;
+outline: none;
+margin: 0 0 26px 0;
+}
+
+.voluntaryReport-fileInput {
+  display: none;
+}
+
+.voluntaryReport-btn {
+font-weight: 500;
+font-size: 16px;
+color: white;
+padding: 20px 16px;
+background: #DE1A1B;
+border-radius: 12px;
+align-items: center;
+display: inline-flex;
+cursor: pointer;
+transition: .4s;
+}
+
+.voluntaryReport-btn:hover {
+    background: red;
+}
+
+.voluntaryReport-btn-icon {
+    color: white;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    flex-shrink: 0;
+}
+
+.info-sidebar-voluntary {
+    width: 320px;
+    position: sticky;
+    top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .voluntaryReport-inputs input { 
+        width: 589px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 589px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 469px;
+        width: 100%;
+    }
+    .voluntaryReportBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 439px;
+        width: 100%;
+    }
+    .voluntaryReportBg {
+        height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 64px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 330px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 27px;
+        width: 100%;
+        padding: 64px 0 26px 0;
+    }
+    .voluntaryReport-group-one h2 {
+        padding: 30px 0 26px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 64px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 280px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 26px;
+        line-height: 31px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 58px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 230px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 25px;
+        line-height: 31px;
+        width: 100%;
+    }
+    .voluntaryReport-block h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .voluntaryReport-block p {
+        font-size: 15px;
+    }
+    .voluntaryReport-btn {
+        padding: 18px 14px;
+        font-size: 15px;
+    }
+    .voluntaryReport-group-one h2 {
+        width: 100%;
+        line-height: 26px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 400px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 54px;
+        font-size: 15px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 200px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 24px;
+        line-height: 31px;
+        width: 100%;
+    }
+    .voluntaryReport-block h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .voluntaryReport-block p {
+        font-size: 15px;
+    }
+    .voluntaryReport-btn {
+        padding: 17px 13px;
+        font-size: 15px;
+    }
+    .voluntaryReport-group-one h2 {
+        width: 100%;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 375px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 54px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 200px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 24px;
+        line-height: 31px;
+        width: 100%;
+    }
+    .voluntaryReport-block h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .voluntaryReport-block p {
+        font-size: 15px;
+    }
+    .voluntaryReport-btn {
+        padding: 17px 13px;
+        font-size: 15px;
+    }
+    .voluntaryReport-group-one h2 {
+        width: 100%;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .voluntaryReport-inputs input { 
+        width: 100%;
+        height: 52px;
+        font-size: 14px;
+    }
+    .voluntaryReport-block-general { 
+       flex-direction: column;
+    }
+    .voluntaryReport-block {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .voluntaryReport-group-one {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .voluntaryReportBg {
+        height: 170px;
+    }
+    .voluntaryReport-general {
+        flex-direction: column;
+    }
+    .info-sidebar-voluntary {
+        width: 100%;
+    }
+    .voluntaryReport h1 {
+        font-size: 23px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .voluntaryReport-block h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .voluntaryReport-block p {
+        font-size: 15px;
+    }
+    .voluntaryReport-btn {
+        padding: 17px 13px;
+        font-size: 14px;
+    }
+    .voluntaryReport-group-one h2 {
+        width: 100%;
+        line-height: 25px;
+        font-size: 18px;
+    }
+}
+

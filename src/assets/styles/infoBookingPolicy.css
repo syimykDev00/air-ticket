@@ -1,0 +1,364 @@
+#infoBooking {
+    padding: 50px 0 80px 0;
+}
+
+.infoBookingBg {
+    background: url('../../assets/img/voluntaryReportImageBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+}
+
+.infoBooking h1 {
+font-weight: 600;
+font-size: 28px;
+color: #202020;
+padding: 40px 0 26px 0;
+}
+
+.infoBooking-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.infoBooking-group-one {
+    max-width: 869px;
+    width: 100%;
+}
+
+.infoBooking-block-one {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin: 0 0 28px 0;
+}
+
+.infoBooking-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 16px 0;
+}
+
+.infoBooking-icon h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 0 0 0 6px;
+}
+
+.infoBooking-block-one p {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+padding: 0 0 16px 0;
+}
+
+.infoBooking-block-one h6 {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+}
+
+.infoBooking-block-two {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin: 0 0 28px 0;
+}
+
+.infoBooking-block-two p {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+padding: 0 0 16px 0;
+}
+
+.infoBooking-block-two h6 {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+padding: 0 0 16px 0;
+}
+
+.infoBooking-block-three {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin: 0 0 28px 0;
+}
+
+.infoBooking-block-three p {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+padding: 0 0 16px 0;
+}
+
+.infoBooking-block-three h6 {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+padding: 0 0 16px 0;
+}
+
+.infoBooking-block-four {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin: 0 0 28px 0;
+}
+
+.infoBooking-block-four p {
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #202020;
+width: 100%;
+}
+
+.info-sidebar-booking {
+    width: 320px;
+    position: sticky;
+    top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 799px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 589px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 469px;
+    }
+    .infoBookingBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 439px;
+    }
+    .infoBookingBg {
+        height: 380px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 330px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 27px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 280px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 230px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 25px;
+    }
+    .infoBooking-icon h2 {
+        font-size: 19px;
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .infoBooking-block-one {
+        font-size: 15px;
+    }
+    .infoBooking-icon {
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 200px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 24px;
+    }
+    .infoBooking-icon h2 {
+        font-size: 19px;
+    }
+    .infoBooking-block-one {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 200px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 24px;
+    }
+    .infoBooking-icon h2 {
+        font-size: 19px;
+    }
+    .infoBooking-block-one {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+    .infoBooking-group-one {
+        max-width: 100%;
+    }
+    .infoBookingBg {
+        height: 170px;
+    }
+    .infoBooking-icon {
+        align-items: start;
+    }
+    .infoBooking-general {
+        flex-direction: column;
+    }
+    .info-sidebar-booking {
+        width: 100%;
+    }
+    .infoBooking h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .infoBooking-icon h2 {
+        font-size: 19px;
+    }
+    .infoBooking-block-one {
+        font-size: 15px;
+    }
+}

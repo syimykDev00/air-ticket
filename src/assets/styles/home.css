@@ -1,0 +1,1276 @@
+#hero {
+    padding: 50px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+font-weight: 600;
+font-size: 52px;
+color: #202020;
+}
+
+.hero p {
+font-weight: 600;
+font-size: 28px;
+text-align: center;
+color: #DE1A1B;
+}
+
+.hero-image {
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+    z-index: 1;
+}
+
+/* ===== SECTION ===== */
+
+#findTickets {
+  padding-bottom: 50px;
+}
+
+.findTickets {
+  background: #e8edf2;
+  padding: 42px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+
+/* ===== INPUT / SELECT BASE ===== */
+.select-btn-one {
+  width: 188px;
+  height: 58px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.select-btn-two {
+  width: 188px;
+  height: 58px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.findTickets-input-one {
+  width: 188px;
+  height: 58px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.findTickets-input-two {
+  width: 188px;
+  height: 58px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.passengers-btn {
+  width: 188px;
+  height: 58px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0 16px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* ===== SELECT ===== */
+
+.select {
+  position: relative;
+}
+
+.select-dropdown {
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.select-item {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.select-item:hover {
+  background: #f5f7fa;
+}
+
+.code {
+  color: #8a8a8a;
+}
+
+/* ===== SWAP BUTTON ===== */
+
+.swap-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swap-btn:hover {
+  background: #f2f2f2;
+}
+
+.swap-btn-icon {
+  font-size: 22px;
+}
+
+/* ===== PASSENGERS ===== */
+
+.passengers {
+  position: relative;
+}
+
+.passengers-btn {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.passengers-span-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.passengers-arrow {
+  font-size: 24px;
+  color: #7a7a7a;
+  transition: transform 0.2s ease;
+}
+
+.passengers-arrow.open {
+  transform: rotate(180deg);
+}
+
+.passengers-count {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.passengers-class {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+
+/* ===== PASSENGERS DROPDOWN ===== */
+
+.passengers-dropdown {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 300px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  z-index: 20;
+  /* АНИМАЦИЯ */
+  opacity: 0;
+  transform: translateY(8px) scale(0.98);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.passengers-dropdown.open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.passenger-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+}
+
+.passengers-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.passengers-info .title {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.passengers-info .desc {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+
+/* ===== COUNTER ===== */
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #e8edf2;
+  cursor: pointer;
+}
+
+.counter button:hover {
+  background: #de1a1b;
+  color: white;
+}
+
+/* ===== DIVIDER ===== */
+
+.divider {
+  height: 1px;
+  background: #e5e5e5;
+  margin: 14px 0;
+}
+
+/* ===== FLIGHT CLASS ===== */
+
+.flight-class {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flight-class span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flight-class-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.flight-class-row input {
+  display: none;
+}
+
+.custom-radio {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+}
+
+.flight-class-row.active .custom-radio {
+  border-color: #de1a1b;
+}
+
+.flight-class-row.active .custom-radio::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #de1a1b;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ===== SEARCH BUTTON ===== */
+
+.findTickets-button {
+  height: 58px;
+  padding: 0 22px;
+  background: #de1a1b;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.findTickets-button:hover {
+  background: #c81617;
+}
+
+.findTickets-btn-icon {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.passengers-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 10px 0;
+}
+
+#greatDeals {
+    padding: 0 0 50px 0;
+}
+
+.greatDeals h1 {
+font-weight: 600;
+font-size: 28px;
+text-align: center;
+color: #202020;
+padding: 0 0 26px 0;
+}
+
+.greatDeals-general {
+  position: relative;
+  background: #F7F8FB;
+  padding: 28px 48px;
+  border-radius: 24px;
+}
+
+/* стрелки */
+.greatDeals-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.greatDeals-arrow svg {
+  font-size: 28px;
+  color: #202020;
+}
+
+.greatDeals-arrow.prev {
+  left: 12px;
+}
+
+.greatDeals-arrow.next {
+  right: 12px;
+}
+
+.greatDeals-block {
+    width: 280px;
+    height: 307px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 7.5px 0px #9C9C9C1A;
+    background: white;
+    margin: 0 10px;
+}
+
+.greatDeals-image {
+  width: 100%;
+}
+
+.greatDeals-text {
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greatDeals-text h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+}
+
+.greatDeals-text h3 {
+font-weight: 600;
+font-size: 20px;
+color: #DE1A1B;
+}
+
+/* мобильная версия */
+@media (max-width: 768px) {
+  .greatDeals-arrow {
+    display: none;
+  }
+}
+
+#neoApplication {
+    padding: 0 0 50px 0;
+}
+
+.neoApplication {
+    background: #F7F8FB;
+    padding: 28px 40px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.neoApplication-group-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #DE1A1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 27px;
+}
+
+.neoApplication-group h2 {
+font-weight: 600;
+font-size: 28px;
+color: #202020;
+padding: 20px 0;
+}
+
+.neoApplication-group h2 span {
+    color: #DE1A1B;
+    text-transform: uppercase;
+}
+
+.neoApplication-group p {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+width: 606px;
+}
+
+.neoApplication-Qrcode {
+    width: 239px;
+    height: 239px;
+    background: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#neoCompany {
+    padding: 0 0 50px 0;
+}
+
+.neoCompany {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.neoCompany img {
+   margin: 0 auto;
+   display: block;
+   width: 200px;
+   height: 74px;
+   object-fit: contain;
+   opacity: 0.6;
+   transition: 0.3s;
+}
+
+.neoCompany img:hover {
+  opacity: 1;
+}
+
+#healthyInformation {
+    padding: 0 0 50px 0;
+}
+
+.healthyInformation h1 {
+font-weight: 600;
+font-size: 28px;
+text-align: center;
+color: #202020;
+padding: 0 0 26px 0;
+}
+
+.healthyInformation-general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.healthyInformation-block {
+    width: 396px;
+    height: 100%;
+    border-radius: 16px;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 30px 0 0 16px;
+}
+
+.healthyInformation-block h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #202020;
+}
+
+.healthyInformation-block p {
+    width: 210px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    padding: 12px 0 0 0;
+}
+
+.healthyInformation-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.healthyInformation-group img {
+    width: 222px;
+    height: 185px;
+}
+
+.healthyInformation-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #DE1A1B;
+    font-size: 21px;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+.healthyInformation-icon:hover {
+    background: #DE1A1B;
+    color: white;
+}
+
+/* Адаптив */
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+    .neoCompany img {
+      width: 180px;
+      height: 68px;
+    }
+    .healthyInformation-general {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .healthyInformation-block {
+      margin: 0 0 35px 0;
+    }
+    .findTickets {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .findTickets-input-one {
+      margin: 0 5px;
+    }
+    .findTickets-input-two {
+      margin: 0 5px;
+    }
+    .select-btn-one {
+      margin: 0 10px;
+    }
+    .select-btn-two {
+      margin: 0 10px;
+    }
+    .passengers-btn {
+      margin: 25px 0 0 0;
+    }
+    .findTickets-button {
+      margin: 25px 0 0 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 46px;
+    }
+    .hero p {
+        font-size: 27px;
+    } 
+    .neoCompany img {
+      width: 160px;
+      height: 55px;
+    }
+    .neoApplication-group h2 {
+      font-size: 27px;
+    }
+    .neoApplication-group p {
+      width: 90%;
+    }
+    .greatDeals-block {
+    width: 250px;
+    height: 287px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 19px;
+    }
+    .greatDeals-text h3 {
+      font-size: 19px;
+    }
+    .findTickets-button {
+        height: 54px;
+        padding: 0 20px;
+    }
+    .findTickets-btn-icon { 
+      font-size: 23px;
+    }
+}
+  
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 45px;
+    }
+    .hero p {
+        font-size: 27px;
+    } 
+    .neoCompany img {
+      width: 170px;
+      height: 60px;
+    }
+    .greatDeals-block {
+    width: 240px;
+    height: 277px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 18px;
+    }
+    .greatDeals-text h3 {
+      font-size: 18px;
+    }
+    .findTickets-input-one {
+      margin: 0 10px 0 0;
+    }
+    .findTickets-input-two {
+      margin: 0;
+    }
+    .select-btn-one {
+      margin: 0 10px 0 0;
+    }
+    .select-btn-two {
+      margin: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 43px;
+        width: 90%;
+        line-height: 50px;
+    }
+    .hero p {
+        font-size: 26px;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 38px;
+    }
+    .neoCompany img {
+      width: 165px;
+      height: 55px;
+    }
+    .neoApplication {
+      padding: 50px 40px;
+      flex-direction: column;
+      align-items: start;
+    }
+    .neoApplication-group {
+      padding: 0 0 25px 0;
+    }
+    .healthyInformation-general {
+      flex-direction: column;
+      align-items: center;
+    }
+    .healthyInformation-block {
+          width: 516px;
+    }
+    .greatDeals-block {
+    width: 250px;
+    height: 287px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 19px;
+    }
+    .greatDeals-text h3 {
+      font-size: 19px;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 500px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 500px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 500px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 500px;
+    }
+    .findTickets {
+      flex-direction: column;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 500px;
+   }
+   .passengers-dropdown { 
+    width: 500px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 40px;
+        width: 90%;
+        line-height: 47px;
+    }
+    .hero p {
+        font-size: 25px;
+        padding: 0 0 10px 0;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 20px;
+    }
+    .neoCompany img {
+      width: 165px;
+      height: 55px;
+    }
+    .neoApplication-group h2 {
+      font-size: 26px;
+    }
+    .healthyInformation-block {
+          width: 456px;
+    }
+    .greatDeals-block {
+    width: 260px;
+    height: 297px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 19px;
+    }
+    .greatDeals-text h3 {
+      font-size: 19px;
+    }
+    .greatDeals h1 {
+      font-size: 27px;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 420px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 420px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 420px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 420px;
+    }
+    .findTickets {
+      flex-direction: column;
+      align-items: center;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 420px;
+   }
+   .passengers-dropdown { 
+    width: 420px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+
+@media (max-width: 450px) {
+    .hero h1 {
+        font-size: 35px;
+        width: 95%;
+        line-height: 45px;
+    }
+    .hero p {
+        font-size: 24px;
+        padding: 0 0 15px 0;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 10px;
+        right: 1px;
+    }
+    .neoCompany img {
+      width: 165px;
+      height: 55px;
+    }
+    .neoApplication {
+      padding: 40px 35px;
+    }
+    .neoApplication-group h2 {
+      font-size: 25px;
+    }
+    .healthyInformation-block {
+          width: 366px;
+    }
+    .healthyInformation h1 {
+      font-size: 27px;
+    }
+    .greatDeals-block {
+    width: 280px;
+    height: 317px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 20px;
+    }
+    .greatDeals-text h3 {
+      font-size: 20px;
+    }
+    .greatDeals h1 {
+      font-size: 26px;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 320px;
+      height: 52px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 320px;
+      height: 52px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 320px;
+      height: 52px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 320px;
+      height: 52px;
+    }
+    .findTickets {
+      flex-direction: column;
+      align-items: center;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 320px;
+      height: 52px;
+   }
+   .passengers-dropdown { 
+    width: 320px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+
+@media (max-width: 400px) {
+    .hero h1 {
+        font-size: 29px;
+        width: 90%;
+        line-height: 39px;
+    }
+    .hero p {
+        font-size: 21px;
+        padding: 0 0 15px 0;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 10px;
+        right: 1px;
+    }
+    .neoCompany img {
+      width: 160px;
+      height: 50px;
+    }
+    .neoApplication {
+      padding: 40px 30px;
+    }
+    .neoApplication-group h2 {
+      font-size: 25px;
+      line-height: 30px;
+      width: 90%;
+    }
+    .neoApplication-Qrcode {
+      width: 229px;
+      height: 229px;
+    }
+    .healthyInformation-block {
+        width: 316px;
+    }
+    .healthyInformation h1 {
+      font-size: 27px;
+    }
+    .healthyInformation-group img {
+    width: 192px;
+    height: 170px;
+   }
+    .healthyInformation h1 {
+        font-size: 25px;
+    }
+    .healthyInformation-block h2 {
+      font-size: 19px;
+      width: 90%;
+    }
+    .greatDeals-block {
+    width: 230px;
+    height: 267px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 18px;
+    }
+    .greatDeals-text h3 {
+      font-size: 18px;
+    }
+    .greatDeals h1 {
+      font-size: 25px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 280px;
+      height: 50px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .findTickets {
+      flex-direction: column;
+      align-items: center;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+      height: 50px;
+      padding: 0 20px;
+      font-size: 15px;
+   }
+   .findTickets-btn-icon {
+    font-size: 21px;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 280px;
+      height: 50px;
+   }
+   .passengers-dropdown { 
+    width: 280px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+
+@media (max-width: 375px) {
+    .hero h1 {
+        font-size: 29px;
+        width: 90%;
+        line-height: 39px;
+    }
+    .hero p {
+        font-size: 21px;
+        padding: 0 0 15px 0;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 10px;
+        right: 1px;
+    }
+    .neoCompany img {
+      width: 160px;
+      height: 50px;
+    }
+    .neoApplication-group h2 {
+      font-size: 24px;
+      line-height: 29px;
+      width: 90%;
+    }
+    .healthyInformation-block {
+        width: 306px;
+    }
+    .healthyInformation-group img {
+    width: 192px;
+    height: 170px;
+   }
+    .healthyInformation h1 {
+        font-size: 25px;
+    }
+    .healthyInformation-block h2 {
+      font-size: 19px;
+      width: 90%;
+    }
+    .greatDeals-block {
+    width: 230px;
+    height: 267px; 
+    }
+    .greatDeals-text h2 { 
+      font-size: 18px;
+    }
+    .greatDeals-text h3 {
+      font-size: 18px;
+    }
+    .greatDeals h1 {
+      font-size: 25px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 280px;
+      height: 50px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 280px;
+      height: 50px;
+    }
+    .findTickets {
+      flex-direction: column;
+      align-items: center;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 280px;
+      height: 50px;
+   }
+   .passengers-dropdown { 
+    width: 280px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+
+@media (max-width: 320px) {
+    .hero h1 {
+        font-size: 32px;
+        width: 90%;
+        line-height: 40px;
+    }
+    .hero p {
+        font-size: 20px;
+        width: 90%;
+        padding: 5px 0 15px 0;
+    } 
+    .hero-image {
+        width: 90%;
+        bottom: 20px;
+        right: 1px;
+    }
+    .neoCompany img {
+      width: 155px;
+      height: 45px;
+    }
+    .neoApplication-group h2 {
+      font-size: 25px;
+      line-height: 30px;
+      width: 90%;
+    }
+    .neoApplication {
+      padding: 40px 30px;
+    }
+    .healthyInformation-block {
+        width: 266px;
+    }
+    .healthyInformation-group img {
+    width: 175px;
+    height: 155px;
+   }
+    .healthyInformation h1 {
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .healthyInformation-block h2 {
+      font-size: 19px;
+      width: 90%;
+    }
+    .healthyInformation-block p {
+      font-size: 15px;
+    }
+    .greatDeals-block {
+    width: 195px;
+    height: 257px; 
+    }
+    .greatDeals-text {
+      flex-direction: column;
+      align-items: start;
+    }
+    .greatDeals-text h2 { 
+      font-size: 18px;
+      padding: 0 0 5px 0;
+    }
+    .greatDeals-text h3 {
+      font-size: 18px;
+    }
+    .greatDeals h1 {
+      font-size: 23px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 30px;
+    }
+    .findTickets-input-one {
+      margin: 0 0 20px 0;
+      width: 230px;
+      height: 50px;
+    }
+    .findTickets-input-two {
+      margin: 0 0 20px 0;
+      width: 230px;
+      height: 50px;
+    }
+    .select-btn-one {
+      margin: 0;
+      width: 230px;
+      height: 50px;
+    }
+    .select-btn-two {
+      margin: 0 0 20px 0;
+      width: 230px;
+      height: 50px;
+    }
+    .findTickets {
+      flex-direction: column;
+      align-items: center;
+    }
+    .findTickets-button {
+      margin: 20px 0 0 0;
+   }
+    .passengers-btn {
+      margin: 0;
+      width: 230px;
+      height: 50px;
+   }
+   .passengers-dropdown { 
+    width: 230px;
+   }
+   .swap-btn { 
+    margin: 12px 0;
+   }
+   .swap-btn-icon {
+    transform: rotate(90deg);
+   }
+}
+

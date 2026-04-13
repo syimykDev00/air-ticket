@@ -1,0 +1,322 @@
+#bagagesAllowance {
+    padding: 50px 0;
+}
+
+.bagagesAllowanceBg {
+    background: url('../../assets/img/bagagesAllowanceBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+}
+
+.bagagesAllowance h1 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 40px 0 12px 0;
+}
+
+.bagagesAllowance-group-one {
+    max-width: 869px;
+    width: 100%;
+}
+
+.bagagesAllowance-block-one {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 18px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.bagagesAllowance-block-one p {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+line-height: 21px;
+width: 100%;
+}
+
+.bagagesAllowance-block-two-group h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 24px 0 12px 0;
+}
+
+.bagagesAllowance-block-two {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: var(--Tretiary, #F7F8FB);
+    padding: 26px 12px;
+    display: flex;
+    align-items: start;
+}
+
+.bagagesAllowance-block-two-text {
+    padding: 0 47px 0 0;
+}
+
+.bagagesAllowance-block-two-text h3 {
+font-weight: 700;
+font-size: 16px;
+color: #000000;
+padding: 0 0 20px 0;
+}
+
+.bagagesAllowance-block-two-text h4 {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+padding: 0 0 20px 0;
+}
+
+.bagagesAllowance-general {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.info-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+/* Левая часть */
+.bagagesAllowance {
+  flex: 1;
+}
+
+/* Правая часть */
+.info-sidebar {
+  width: 320px;
+  position: sticky;
+  top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    .bagagesAllowance-group-one {
+        max-width: 789px;
+    }
+}
+
+@media (max-width: 1200px) {
+     .bagagesAllowance-group-one {
+        max-width: 589px;
+    }
+}
+
+@media (max-width: 1024px) {
+     .bagagesAllowance-group-one {
+        max-width: 469px;
+    }
+    .bagagesAllowanceBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+     .bagagesAllowance-group-one {
+        max-width: 439px;
+    }
+    .bagagesAllowanceBg {
+        height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 330px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 280px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+    .bagagesAllowance-block-two-text h3 { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text h4 { 
+        font-size: 14px;
+    }
+    .bagagesAllowance-block-two-group h2 { 
+        font-size: 19px;
+    }
+      .bagagesAllowance-block-one-group h2 { 
+        font-size: 19px;
+    }
+    .bagagesAllowance-block-one p { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text {
+    padding: 0 37px 0 0;
+  }
+}
+
+@media (max-width: 450px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 230px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+    .bagagesAllowance-block-two-text h3 { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text h4 { 
+        font-size: 14px;
+    }
+    .bagagesAllowance-block-two-group h2 { 
+        font-size: 19px;
+    }
+      .bagagesAllowance-block-one-group h2 { 
+        font-size: 19px;
+    }
+    .bagagesAllowance-block-one p { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text {
+    padding: 0 30px 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 200px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+    .bagagesAllowance-block-two-text h3 { 
+        font-size: 13px;
+    }
+    .bagagesAllowance-block-two-text h4 { 
+        font-size: 13px;
+    }
+    .bagagesAllowance-block-two-group h2 { 
+        font-size: 19px;
+        width: 100%;
+    }
+      .bagagesAllowance-block-one-group h2 { 
+        font-size: 19px;
+    }
+    .bagagesAllowance-block-one p { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text {
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 375px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 200px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+    .bagagesAllowance-block-two-text h3 { 
+        font-size: 13px;
+    }
+    .bagagesAllowance-block-two-text h4 { 
+        font-size: 13px;
+    }
+    .bagagesAllowance-block-two-group h2 { 
+        font-size: 19px;
+    }
+      .bagagesAllowance-block-one-group h2 { 
+        font-size: 19px;
+    }
+    .bagagesAllowance-block-one p { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text {
+    padding: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+     .bagagesAllowance-group-one {
+        max-width: 100%;
+        padding: 0 0 30px 0;
+    }
+    .bagagesAllowanceBg {
+        height: 170px;
+    }
+    .bagagesAllowance-general {
+        flex-direction: column;
+    }
+    .info-sidebar {
+        width: 100%;
+    }
+    .bagagesAllowance-block-two-text h3 { 
+        font-size: 12px;
+    }
+    .bagagesAllowance-block-two-text h4 { 
+        font-size: 12px;
+    }
+    .bagagesAllowance-block-two-group h2 { 
+        font-size: 18px;
+    }
+      .bagagesAllowance-block-one-group h2 { 
+        font-size: 19px;
+    }
+    .bagagesAllowance-block-one p { 
+        font-size: 15px;
+    }
+    .bagagesAllowance-block-two-text {
+    padding: 0 14px 0 0;
+  }
+  .bagagesAllowance h1 { 
+    font-size: 19px;
+  }
+}
+

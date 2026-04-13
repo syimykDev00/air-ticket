@@ -1,0 +1,273 @@
+#infoPlanning {
+    padding: 50px 0 80px 0;
+}
+
+.infoPlanningBg {
+    background: url('../../assets/img/voluntaryReportImageBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+}
+
+.infoPlanning h1 {
+font-weight: 600;
+font-size: 28px;
+color: #202020;
+padding: 40px 0 26px;
+}
+
+.infoPlanning p {
+font-weight: 500;
+font-size: 18px;
+color: #202020;
+padding: 0 0 20px 0;
+}
+
+.infoPlanning-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.infoPlanning-block {
+    width: 394px;
+    height: 379px;
+    background: var(--Tretiary, #F7F8FB);
+    border-radius: 16px;
+    padding: 20px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0 0 26px 0;
+}
+
+.infoPlanning-block h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+line-height: 24px;
+width: 100%;
+padding: 12px 0;
+}
+
+.infoPlanning-block h6 {
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #212121;
+width: 100%;
+padding: 0 0 12px 0;
+}
+
+.info-sidebar-planning {
+    width: 320px;
+    position: sticky;
+    top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    .infoPlanning-block {
+    width: 374px;
+    height: 100%; 
+  }
+}
+
+@media (max-width: 1200px) {
+    .infoPlanning-general {
+        flex-wrap: wrap;
+    }
+    .infoPlanning-block {
+        width: 434px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .infoPlanning-general {
+        flex-wrap: wrap;
+    }
+    .infoPlanning-block {
+        width: 384px;
+    }
+    .infoPlanningBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .infoPlanning-general {
+        flex-wrap: wrap;
+    }
+    .infoPlanning-block {
+        width: 364px;
+    }
+    .infoPlanningBg {
+        height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 330px;
+    }
+    .infoPlanning h1 {
+        font-size: 27px;
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 280px;
+    }
+    .infoPlanning h1 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .infoPlanning p { 
+        width: 100%;
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 230px;
+    }
+    .infoPlanning h1 {
+        width: 100%;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .infoPlanning p { 
+        width: 100%;
+        font-size: 17px;
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+    .infoPlanning-block h2 { 
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 400px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 200px;
+    }
+    .infoPlanning h1 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .infoPlanning p { 
+        width: 100%;
+        font-size: 15px;
+
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+    .infoPlanning-block h2 { 
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .infoPlanning-block h6 { 
+       font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 200px;
+    }
+    .infoPlanning h1 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .infoPlanning p { 
+        width: 100%;
+        font-size: 16px;
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+    .infoPlanning-block h2 { 
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .infoPlanning-block h6 { 
+       font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .infoPlanning-general {
+        flex-direction: column;
+    }
+    .infoPlanning-block {
+        width: 100%;
+    }
+    .infoPlanningBg {
+        height: 170px;
+    }
+    .infoPlanning h1 {
+        width: 100%;
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .infoPlanning p { 
+        width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .info-sidebar-planning {
+        width: 100%;
+    }
+    .infoPlanning-block h2 { 
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .infoPlanning-block h6 { 
+       font-size: 15px;
+    }
+}

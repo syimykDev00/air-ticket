@@ -1,0 +1,298 @@
+#dangerousGoods {
+    padding: 50px 0 80px 0;
+}
+
+.dangerousGoodsBg {
+    background: url('../../assets/img/dangerousGoodsBg.png') no-repeat center/cover;
+    height: 450px;
+    border-radius: 18px;
+    width: 100%;
+}
+
+.dangerousGoods {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+    padding: 76px 0 0 0;
+}
+
+.dangerousGoods-group-one {
+    max-width: 869px;
+    width: 100%;
+}
+
+.dangerousGoods-block-one {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    border-radius: 16px;
+    padding: 18px 12px;
+}
+
+.dangerousGoods-text-group {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 0;
+}
+
+.dangerousGoods-icon-one {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E8D1D1;
+    border-radius: 50%;
+}
+
+.dangerousGoods-text-group h2 {
+font-weight: 600;
+font-size: 20px;
+color: #202020;
+padding: 0 0 0 4px;
+}
+
+.dangerousGoods-block-one p {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+width: 100%;
+}
+
+.dangerousGoods-block-two {
+    width: 100%;
+    height: 100%;
+    background: var(--Tretiary, #F7F8FB);
+    border-radius: 16px;
+    padding: 18px 12px;
+    margin: 24px 0 0 0;
+}
+
+.dangerousGoods-icon-two {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F6E2D1;
+    border-radius: 50%;
+}
+
+.dangerousGoods-block-two p {
+font-weight: 500;
+font-size: 16px;
+color: #202020;
+width: 100%;
+}
+
+.info-sidebar-dangerous {
+    width: 320px;
+    position: sticky;
+    top: 120px;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+    .dangerousGoods-group-one {
+         max-width: 809px;
+         width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dangerousGoods-group-one {
+         max-width: 589px;
+         width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .dangerousGoods-group-one {
+         max-width: 489px;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .dangerousGoods-group-one {
+         max-width: 469px;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 320px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 270px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+    .dangerousGoods-text-group h2 {
+        font-size: 19px;
+    }
+    .dangerousGoods-block-one p {
+        font-size: 15px;
+    }
+    .dangerousGoods-block-two p {
+        font-size: 15px;
+    }
+    .dangerousGoods-text-group {
+        align-items: start;
+    }
+}
+
+@media (max-width: 450px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 240px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+    .dangerousGoods-text-group h2 {
+        font-size: 19px;
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .dangerousGoods-block-one p {
+        font-size: 15px;
+    }
+    .dangerousGoods-block-two p {
+        font-size: 15px;
+    }
+    .dangerousGoods-text-group {
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 200px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+    .dangerousGoods-text-group h2 {
+        font-size: 19px;
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .dangerousGoods-block-one p {
+        font-size: 15px;
+    }
+    .dangerousGoods-block-two p {
+        font-size: 15px;
+    }
+    .dangerousGoods-text-group {
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 200px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+    .dangerousGoods-text-group h2 {
+        font-size: 19px;
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .dangerousGoods-block-one p {
+        font-size: 15px;
+    }
+    .dangerousGoods-block-two p {
+        font-size: 15px;
+    }
+    .dangerousGoods-text-group {
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .dangerousGoods-group-one {
+         max-width: 100%;
+         width: 100%;
+    }
+    .dangerousGoodsBg {
+        height: 170px;
+    }
+    .dangerousGoods {
+        flex-direction: column;
+    }
+    .info-sidebar-dangerous {
+        width: 100%;
+    }
+    .dangerousGoods-text-group h2 {
+        font-size: 19px;
+        padding: 10px 0 0 0;
+        width: 100%;
+    }
+    .dangerousGoods-block-one p {
+        font-size: 15px;
+    }
+    .dangerousGoods-block-two p {
+        font-size: 15px;
+    }
+    .dangerousGoods-text-group {
+        align-items: start;
+        flex-direction: column;
+    }
+}
